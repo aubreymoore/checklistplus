@@ -1,5 +1,4 @@
 secrets.py
 *.pyc
 __pycache__
-manage.py
 
