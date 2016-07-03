@@ -2,4 +2,6 @@ Django==1.9.7
 django-debug-toolbar==1.4
 django-mptt==0.8.4
 PyMySQL==0.7.4
+six==1.10.0
 sqlparse==0.1.19
+taxon-names-resolver==1.0.5

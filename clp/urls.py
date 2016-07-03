@@ -15,11 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from taxonomy.views import show_taxa
+from taxonomy.views import show_taxa, add_taxon
 from . import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^admin/', admin.site.urls),
     url(r'^taxa/$', show_taxa),
+    url(r'^add/$', add_taxon),
 ]
